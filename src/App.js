@@ -9,16 +9,14 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      {/* <SingleProduct /> */}
-
       <div>
         <Route path="/" exact>
           <Home />
-        </Route>
+        </Route>{" "}
         <Route path="/cart" exact>
           <Cart />
-        </Route>
-      </div>
+        </Route>{" "}
+      </div>{" "}
     </BrowserRouter>
   );
 }

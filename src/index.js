@@ -7,9 +7,9 @@ import Context from "./context/Context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <Context>
-      <App />
-    </Context>
-  </React.StrictMode>
+  <Context>
+    <App />
+  </Context>
 );
+
+//react-router-dom V5 is not working with react 18
