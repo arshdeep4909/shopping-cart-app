@@ -16,7 +16,7 @@ const Home = () => {
       <Filters />
       <div className="productContainer">
         {products.map((prod) => (
-          <SingleProduct prod={prod} id={prod.key} />
+          <SingleProduct prod={prod} key={prod.id} />
         ))}
       </div>
     </div>
